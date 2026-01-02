@@ -1,10 +1,13 @@
 # main.sh
 
+> [!IMPORTANT]
+> The script was rewritten to typescript and now lives in my [nikelborm/effect-garden](https://github.com/nikelborm/effect-garden): [archive-compress-encrypt-and-back](https://github.com/nikelborm/effect-garden/tree/main/packages/archive-compress-encrypt-and-back). Bash version is not maintained.
+
 `main.sh` is a Bash script that provides two functions for creating and extracting encrypted compressed archives. The script uses the `tar`, `zstd`, and `gpg` utilities to create and extract archives.
 
 ## Usage
 
-```
+```plaintext
 Usage: main.sh do_tar_zstd_gpg source_dir dest_file
        main.sh undo_tar_zstd_gpg source_file dest_dir
 
